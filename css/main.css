@@ -1,0 +1,80 @@
+/*index*/
+@import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
+body {
+    padding : 0;
+    margin : 0;
+    background :#697385;;
+}
+html, a, h1 ,h2 ,h3, h4, h5, h6, footer {
+    font-family: "Playfair";
+}
+p
+{
+	font-family: Times New Roman;
+	font-size: 20px;
+	color: #ffffff;
+}
+.navbar {
+    background : #a0b5db;
+}
+.nav-link , .navbar-brand {
+    color : #f4f4f4;
+    cursor : pointer;
+}
+.nav-link {
+    margin-right: 1em !important ;
+}
+.btn-secondary:hover {
+    background :  #F97300;
+    color : #fff;
+}
+.navbar-collapse {
+    justify-content : flex-end;
+}
+.jumbotron{
+    height: 400px;
+    background: url("../images/gun1.jpeg");
+    background-size: cover;
+}
+.img-fluid {
+	box-shadow: 0px 0px 10px black;
+}
+div {
+  padding: 7px;
+}
+footer {
+    background-color: #2c4369;
+    text-align: justify;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 1.5;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*about*/
+footer {
+    background-color: #2c4369;
+    text-align: justify;
+}
+.btn-block:hover {
+	background :  #99aef2;
+    color : #fff;
+}
+/*history*/
+
+
